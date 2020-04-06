@@ -1,0 +1,20 @@
+.content {
+  display: flex;
+}
+
+.content >.description {
+  padding-left: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.content >.image >img {
+  width: 50px;
+  height: auto;
+}
+
+.content >.description > .text {
+  font-size: 12px;
+  color: rgba(0,0,0,.4);
+  line-height: 16px;
+}
